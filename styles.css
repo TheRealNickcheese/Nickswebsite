@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333;
+}
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+form button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #ffbf00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffcc33;
+}
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: left; 
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Title Section */
+.title-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px;
+    background-color: #fffaf0;
+    color: black;
+}
+
+.title-section h1, .title-section h2 {
+    margin: 0;
+}
+
+.title-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px; 
+}
+/* Header Styles */
+header {
+    background-color: #ffbf00; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* My gig text styles */
+.gig-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;  
+    font-size: 20px;
+}
+
+/* Wrapper and Container */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #333; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fffaf0; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+ 
+.nav-bar a {
+    color: white; 
+    padding: 10px 20px;
+    background-color: #333; 
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #FFC0C0; 
+}
+
+.nav-bar a:hover {
+    background-color: #4f4f4f; 
+    color: white; 
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.my-videos {
+    text-align: center;
+}
+
